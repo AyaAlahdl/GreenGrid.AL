@@ -8,3 +8,4 @@ streamlit-autorefresh
 numpy
 python-dotenv
 google-generativeai
+google-cloud-bigquery
