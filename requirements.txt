@@ -1,0 +1,6 @@
+# Start-Process "G:\data science certificates\GUI project\myenv310\Lib\site-packages\qt5_applications\Qt\bin\designer.exe"                               
+google-cloud-bigquery
+google-cloud-storage
+google-cloud-pubsub
+openmeteo-requests
+requests-cache retry-requests numpy pandas

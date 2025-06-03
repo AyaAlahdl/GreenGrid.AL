@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "greengrid-ai-multi-agent",
+  "private_key_id": "bbbda18c9c6199f1660e6f8238808b6252e324f6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChpAUGP5qlS5Qu\nSE6x3LomoiaOjXJSRf4vDI6OWHCJx6Z7sZb6hh8lXXgJshpbhG6us9w3X1QLIQQg\naVMWXSzKcEFOEtUZjw5vWZWDTwboKseeYALHVeFzbES9/vtBe26kI0N78gRxxvCu\nYukMdhNapoLa9N0np+scsl4qbsF8cv5vhxdNqXgnGgyoOrFy5HRuYPrFv2RLmI4U\nlBdh/byC9itGUGc2MTELTtmcqosxme9npgGhnh1E+k1QWZdXhvU6KyzkNFw4u2Un\nHhIHOf6vYeY38/4OxSSqXE9yYwioWaT3yzlXE/4sQUvicirIhn3P8k/UbFAUF+j5\nghZjfuRvAgMBAAECggEAA+LFCibqSVH9UHWFisoTIY2hXqjw2CB9oVTscmiW4AEQ\nNAYLap9hzUynb5g8APo4jPOe9ifRBel3x22wxSddRcqYD0/tlo01XCDrsrnqIRey\nL9EAEBm070jpiCXClYrpmIGOhELHr5KIQ7D2CEooYfQBzlC3plXnlYuGLv/1n8+8\nHNgF5CVXo2BNJQWw/dsXvFkWPJb/n6v9jsPBeT4Q548SwlGGOFaC4nWhs4ffbPbP\nz0t2yk9OpVGg40U0CtIrXlGv6xZgQiVJB7T/1tBMeuoH1FxP7wXZok1bJSsLWadc\nSdZRwR01U9vxIanypEecxStJTBk7EpMgKYl1XEQLuQKBgQDPZoqDoxmfCNcURTS+\nGTwedxNtu8ZVeMEMPEG2VnEgYYDcsdLm+hWe/QohWkAL9C+k1DU9qD8RHGzUTmNi\nKIqfxQ9v9WfhzJCnErB9STjRQ3cSonW/t9xK/S4hUaleuNrJFA1KaGHnTyuSgp93\n8XKalr3jV6FA51AQGdFyHQQ6mQKBgQDHhHSeCb3y1koI/UBIFIFS421NuJv/rz0G\nZNK0ug4WyfZFVfevio1Gqn+Dqwva1BWXK/jqrtrKFiWb9YRAt1wrx/fe7fBAKsIn\nIS23OFXyz1u3VCZe8fVWHhx6P+RlK76QTO96Mg2UX+zcISvGDtnfCMYuWr9VE5AT\nQwgogRJERwKBgEaqj6OOnRo87tuvQOtMudk/hVUsV8WjoVND7Lft+BmqXzfTNyMQ\nLvG/EgaPM6dfCiTFUWayvtpbrxEfrGkzmxgZEst4+G5NPzRN/+iQXFWhAR9OT4SF\nZv/+CAu+QVFO9uzwch7aNhGUPipra1543C2kEws1PnJY3kS+J0kUbe5xAoGAHdsd\nVFTi3sbgV04GY4LmA1BTF/FLLsy7VgyaVz8MQq7AMon1wYf7Mhrrb/mVkY5xGKkU\n25GE3f7Ia/kmbETD/y0yU2LJs+ByI0bcv3Ens2kCMYHfKBAPBW8GFekftWABaTiK\nEYAR9iUQnbQ9B6tLQQvgFCmyPfnqcmdyfhUqdZsCgYA5wWI8WXWiWoJplvSp/ex/\nSB3TI/nJkOk2Pq3cEe2rfLq8hAwp4nuqyL4vvguI9bYVYun1R4w50ype/dOep2Eu\n4NQmqO+9RSKQzgqfa6KkcG1mGlo4/fMil8uQ8Ixfhbqn8qzr9pcy1uPibtnkDXDE\nqYZMevQ91QLrvokeFrjisA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "greengrid-service@greengrid-ai-multi-agent.iam.gserviceaccount.com",
+  "client_id": "102654077361587171926",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/greengrid-service%40greengrid-ai-multi-agent.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
