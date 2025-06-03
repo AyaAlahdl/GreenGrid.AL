@@ -1,2 +1,106 @@
-# GreenGrid.AL
-🔋 GreenGrid.AI Dashboard 🧠 Intelligent Agent Summary 🚀 System Log [SensorAgent] Collected sensor data: {'consumption_kWh': 12.5, 'solar_generation_kWh': 4.2, 'timestamp': '2025-06-03T16:24:29.958704Z'} ✅ Data loaded into BigQuery successfully (batch insert). 2025-06-03 16:24:55 [INFO] ForecastAgent: Radiation: 685.00 W/m² → Solar Forecast: 1.0099999904632568 kWh 2025-06-03 16:24:55 [INFO] ForecastAgent: Predicted consumption: 11.380000114440918 kWh 2025-06-03 16:24:55 [INFO] ForecastAgent: Forecast: {'predicted_consumption_kWh': 11.380000114440918, 'predicted_solar_kWh': 1.0099999904632568} 2025-06-03 16:24:55 [INFO] ForecastAgent: [ForecastAgent] Forecast completed successfully. [PricingAgent] Current price: 15.6975 p/kWh at 2025-06-03T16:24:29.958704Z [OptimizerAgent] Optimization decision: use solar, buy rest [AdvisorAgent] Gemini-generated report:  📄 Advisor Report Your Home Energy Plan: Solar + Smart Buying Here's your personalized energy plan: Use solar power to generate some of your electricity, and buy the rest from the grid.  What does this mean?  Go Solar (Partially): Install solar panels on your roof to produce some of the electricity you need. This will reduce your reliance on traditional power sources and can save you money over time.  Buy the Rest: Don't worry about covering all your energy needs with solar. You'll still buy electricity from the grid (your local power company) to make up the difference. This ensures you always have power, even when the sun isn't shining.  Why this approach?  This approach balances the benefits of renewable energy with reliability and cost-effectiveness.  Save Money: Solar power can lower your monthly electricity bills. Be Eco-Friendly: Solar energy is clean and reduces your carbon footprint. Always Have Power: By buying the rest of your electricity, you're guaranteed a consistent power supply, day and night. Estimated Cost: $21.51  This  21.51 f i g u r e r e p r e s e n t s t h e e s t i m a t e d ∗ n e t ∗ c o s t a f t e r f a c t o r i n g i n b o t h t h e s o l a r e n e r g y g e n e r a t i o n a n d t h e c o s t o f p u r c h a s i n g a d d i t i o n a l e l e c t r i c i t y f r o m t h e g r i d . I t m e a n s b y a d o p t i n g t h i s p l a n , y o u r c o s t s w i l l b e a r o u n d 21.51figurerepresentstheestimated∗net∗costafterfactoringinboththesolarenergygenerationandthecostofpurchasingadditionalelectricityfromthegrid.Itmeansbyadoptingthisplan,yourcostswillbearound21.51 per [time period, e.g. month, year, etc.]. Note: This is just an estimate, and actual costs may vary depending on usage and other factors. It is crucial to understand that this cost is for the total electricity used from solar and grid.  Next Steps:  Get Quotes for Solar Panel Installation: Contact several solar companies for quotes. Be sure to ask about financing options, incentives, and warranties. Understand Your Energy Usage: Track your current electricity consumption to help size your solar system correctly. Research Energy Providers: Compare electricity rates from different providers to ensure you're getting the best deal for the electricity you buy from the grid. This plan provides a solid foundation for managing your home's energy consumption. By combining solar energy with smart purchasing, you can save money, protect the environment, and enjoy a reliable power supply.  📦 Raw Output Dictionary  🔧 User Inputs for Solar and Consumption ☀️ Simulated Solar Radiation (W/m²)  0 1000 🏠 Predicted Consumption (kWh)  10.00   💰 Estimated Cost Savings  1.72 currency units 💵 Net Cost  -0.15 currency units 🔋 Battery Charge Level (kWh)  1.00 ⚡ Battery Action: Discharge   💬 User Feedback What do you think of this energy plan?
+# 🌱 GreenGrid.AI
+
+**Smart Energy Optimization using Multi-Agent Systems + AI**
+
+GreenGrid.AI is a modular, intelligent system that helps households reduce electricity costs and optimize energy usage by leveraging solar power, real-time pricing data, and AI-powered decision making. Built with a multi-agent architecture, the system integrates forecasting, sensing, optimization, and natural language reporting to deliver actionable insights to users through a sleek web dashboard.
+
+---
+
+## 🚀 Inspiration
+
+The increasing demand for energy efficiency, climate-conscious living, and smart home solutions inspired us to create GreenGrid.AI. We envisioned a tool that could empower people to make better energy decisions without needing to understand complex data, combining autonomous agents and artificial intelligence to do the heavy lifting.
+
+---
+
+## 💡 What It Does
+
+GreenGrid.AI:
+- Tracks energy consumption and solar generation
+- Forecasts future solar output and energy usage
+- Fetches live electricity prices
+- Optimizes when to store, use, or sell electricity
+- Presents clear recommendations via a web dashboard
+- Uses LLMs (like Gemini) to explain technical insights in plain English
+
+---
+
+## 🛠️ How We Built It
+
+- **Languages & Frameworks:** Python, Streamlit  
+- **Agent Architecture:** Built using the Agent Development Kit (ADK)  
+- **Cloud & Storage:** Google BigQuery  
+- **APIs:** 
+  - [Open-Meteo](https://open-meteo.com) – weather forecasts  
+  - [Octopus Energy](https://octopus.energy/) – dynamic electricity pricing  
+  - [Google Gemini Pro](https://deepmind.google/technologies/gemini/) – natural language reporting  
+- **Other Tools:** Matplotlib, Pandas, Scikit-learn (forecasting), Prompt Engineering
+
+---
+
+## 🔍 Challenges We Faced
+
+- Handling asynchronous communication between agents
+- Ensuring reliable and timely data syncing from multiple APIs
+- Designing a robust optimization logic with real-time constraints
+- Making technical outputs understandable to end users
+
+---
+
+## 🏆 Accomplishments
+
+- Successfully implemented a scalable, modular multi-agent system
+- Integrated cloud storage, external APIs, and LLMs seamlessly
+- Built a user-friendly dashboard with actionable, human-readable insights
+- Developed prompt chains that turn complex data into natural language summaries
+
+---
+
+## 📚 What We Learned
+
+- How to build cooperative AI agents using ADK  
+- Designing real-time systems with external data dependencies  
+- Prompt engineering for effective LLM outputs  
+- Bridging the gap between backend intelligence and frontend usability
+
+---
+
+## 🔮 What's Next
+
+- Add ML-based personalization to the optimizer agent  
+- Support more IoT integrations (smart thermostats, EVs, etc.)  
+- Enable real-time user feedback into the optimization loop  
+- Collaborate with energy providers to offer incentives  
+- Enhance dashboard visualizations and UX
+
+---
+
+## 📸 Demo Screenshot
+
+![GreenGrid.AI Dashboard]([path/to/demo-image.png](https://greengrid-ai.streamlit.app/#green-grid-ai-dashboard))
+
+---
+
+## 🧰 Built With
+
+- Python
+- Streamlit
+- Google BigQuery
+- Octopus Energy API
+- Open-Meteo API
+- Google Gemini LLM
+- Agent Development Kit (ADK)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Feel free to submit pull requests, file issues, or fork the repo to improve GreenGrid.AI. For larger changes, please open an issue to discuss your ideas.
+
+
+---
+
+## 🌐 Links
+
+- [Live Demo]([https://your-app-link.com](https://greengrid-ai.streamlit.app/#green-grid-ai-dashboard))
+- [Project Story]([https://devpost.com/software/greengrid-ai](https://devpost.com/software/greengrid-ai-multi-agent-smart-energy-management-system?ref_content=my-projects-tab&ref_feature=my_projects))
+
